@@ -1,0 +1,70 @@
+.backdrop {
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 600px;
+    position: relative;
+    
+}
+
+.border {
+    background-color: rgb(161, 161, 9);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.score {
+    background-color: black;
+    color: rgb(177, 177, 10);
+    text-align: right;
+    padding-right: 150px;
+    font-size: 20;
+
+}
+
+.paddle {
+    height: 15px;
+    width: 150px;
+    background-color: beige;
+    margin-inline: auto;
+    margin-top: 350px;
+}
+
+.brick {
+    display: grid;
+    width: 75px;
+    height: 25px;
+    margin: 2px;
+}
+.red-bricks .brick {
+    background-color: red;
+}
+
+.red-bricks {
+    display: flex;
+}
+
+.yellow-bricks .brick {
+    background-color: yellow;
+}
+
+.yellow-bricks {
+    display: flex;
+}
+
+.green-bricks .brick {
+    background-color: green;
+}
+
+.green-bricks {
+    display: flex;
+}
+
+.blue-bricks .brick {
+    background-color: blue;
+}
+
+.blue-bricks {
+    display: flex;
+}
