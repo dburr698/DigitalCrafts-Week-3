@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    background-color: #fff;
+}
+
+#top-banner {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.featured-article {
+    padding: 60px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    color: inherit;
+    background-color: #eee;
+    border-radius: 6px;
+}
+
+.art {
+    max-width: 860px;
+}
+
+.art h6{
+    color: #128acc;
+}
+
+.art p {
+    margin-bottom: 10px;
+}
